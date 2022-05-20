@@ -48,4 +48,4 @@ etc ...
 	- Ne pas afficher la derniere la deniere virgule de tous les tags
 	- Chaque personne sera séparé d'une ligne horizontale html `<hr>` 
 
-Vous trouverez une capture du resultat attendu.
+Vous trouverez une capture du résultat attendu.
