@@ -6,6 +6,12 @@ Afin de récupérer ce depôt(repository) , se rendre dans une console(git bash 
 
 Cloner ce depôt `git clone https://github.com/formeka/php (optionnel:non-du-depot-de-votre-choix)`
 
+## Commande git à maitriser
+
+[Aide mémoire git](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
+
+## Sommaire du cours 
+
 - [Syntaxe](./01-syntaxe/index.php)
 - [Variables](./02-variables/index.php)
 - [Tableaux](./03-tableaux/index.php)
