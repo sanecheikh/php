@@ -20,3 +20,20 @@ Travail-02 :
 
 Vous trouverez une capture du resultat attendu.
  */
+echo'<pre>';
+$json_deuxieme_ami_Raymond_Jimenez_obj ='{
+    "nom":"ball",
+    "prenom":"shaffer",
+    "age ":"20",
+    "email":"ballshaffer@zensure.com"
+    "couleur yeux":["blue"],
+    "fruit favori":"apple",
+    "Tags":"excitation ,sint,adipiscing,produit,sunt,exepteur,elit ",
+   
+}';
+$json_array_php = json_decode($json_deuxieme_ami_Raymond_Jimenez_obj,true);
+echo '<hr>';
+print_r($json_deuxieme_ami_Raymond_Jimenez_obj);
+
+//echo $json_array_php['couleur']['blue'];
+'</pre>';
