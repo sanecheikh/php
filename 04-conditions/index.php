@@ -69,6 +69,17 @@
 //     echo 'Faux';
 // }
 
+
+// Syntaxe alternative est particulièrement utile avec du HTML:
+?>
+
+<?php if ($x): ?>
+<p>Ceci est affiché si $x est vrai</p>
+<?php else: ?>
+<p>Ceci est affiché si $x est faux</p>
+<?php endif; ?>
+
+<?php
 //=============
 // switch/case
 //=============

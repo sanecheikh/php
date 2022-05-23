@@ -32,6 +32,12 @@ $z = &$y;
 // $z changerait également la valeur de $y, et vice-versa.
 // $x resterait inchangé comme la valeur initiale de $y
 
+echo $x; // => 2
+echo $z; // => 2
+$y = 0;
+echo $x; // => 2
+echo $z; // => 0
+
 
 // $a += 6; // $a = $a + 6;
 // $a += $b;
