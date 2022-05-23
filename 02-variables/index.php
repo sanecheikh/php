@@ -22,6 +22,23 @@ $calcul = $x + ($y * $z);
 $a = 5;
 // $a = '5';
 $b = 7;
+
+// affectation par référence
+$x = 1;
+$y = 2;
+$x = $y; // $x contient maintenant la même valeur que $y
+$z = &$y;
+// $z contient une référence vers $y. Changer la valeur de
+// $z changerait également la valeur de $y, et vice-versa.
+// $x resterait inchangé comme la valeur initiale de $y
+
+echo $x; // => 2
+echo $z; // => 2
+$y = 0;
+echo $x; // => 2
+echo $z; // => 0
+
+
 // $a += 6; // $a = $a + 6;
 // $a += $b;
 // $a -= $b;
